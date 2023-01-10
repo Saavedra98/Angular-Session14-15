@@ -1,0 +1,25 @@
+<div class="container">
+
+    <h1>{{titulo}}</h1>
+    <div class="linea"></div>
+
+
+    <div class="evento">
+
+        <h2>Event binding</h2>
+        <button type="button" class="btn btn-primary px-4" (click)="cambiar()">{{nombreBoton}}</button>
+        <p *ngIf="condicion" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae aperiam veniam fugit inventore ab necessitatibus, atque assumenda minus dolorem culpa facere nemo tempore officiis repellat velit ut provident nostrum. Itaque vel dicta quae culpa quidem molestiae exercitationem modi quas iure!</p>
+    </div>
+
+    <div class="linea"></div>
+
+
+    <div class="two">
+
+        <h2>Two way binding</h2>
+
+        <p class="texto"> {{name}} </p>
+        <textarea  [(ngModel)]="name" class="form-control area"  rows="4" ></textarea>
+    </div>
+
+</div>
