@@ -10,7 +10,7 @@ export class HomeComponent {
   nombreBoton = "Mostrar"
   condicion=false;
   name !: string;
-
+  textoPadre: string = "" ;
 
   cambiar(){    
     

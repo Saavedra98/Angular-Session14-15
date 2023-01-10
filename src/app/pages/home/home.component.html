@@ -22,4 +22,16 @@
         <textarea  [(ngModel)]="name" class="form-control area"  rows="4" ></textarea>
     </div>
 
+    <div class="linea"></div>
+
+    <div class="padre">
+
+        <h2>COMPONENTE PADRE</h2>
+        <input [(ngModel)]="textoPadre" type="text" class="form-control cajaTexto">
+
+        <app-hijo  [textoHijo]="textoPadre" >  </app-hijo>
+
+    </div>
+
+
 </div>

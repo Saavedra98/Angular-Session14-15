@@ -36,3 +36,12 @@ p{
     background-color: white;
     padding: 10px;
 }
+
+.padre{
+    margin-top: 20px;
+}
+
+.cajaTexto{
+    width: 50%;
+    border: 1px solid black;
+}

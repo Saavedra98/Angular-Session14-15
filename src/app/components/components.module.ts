@@ -10,6 +10,8 @@ import { HijoComponent } from './hijo/hijo.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],exports: [
+    HijoComponent
+  ],
 })
 export class ComponentsModule { }
